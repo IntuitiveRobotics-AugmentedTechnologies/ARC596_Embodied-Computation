@@ -1,0 +1,31 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about" style="vertical-align: top;">
+      <h1> 
+        <a href="{{ site.baseurl }}"> 
+          {{ site.title }}
+        </a> 
+      </h1>
+      <p class="lead" style="color:white;">{{ site.description }}</p>
+    </div>
+  
+    {% if site.data.site_menu.menu[0] %}
+      {% for item in site.data.site_menu.menu %}
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" {% if item.url != null %}href="{{site.baseurl}}{{item.url}}" {% endif %}>{{ item.title }}</a>
+          {% if item.subfolderitems[0] %}
+            <!-- enable this for submenus
+              <ul>
+              {% for entry in item.subfolderitems %}
+                  <li>
+                    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{site.baseurl}}{{entry.url}}">{{ entry.page }}</a>
+                  </li>
+              {% endfor %}
+            </ul>
+          -->
+          {% endif %}
+        {% endfor %}
+    {% endif %}
+
+    <p style="color:white;">&copy; {{ site.time | date: '%Y' }}. A page by Daniela Mitterberger - All rights reserved.</p>
+  </div>
+</div>

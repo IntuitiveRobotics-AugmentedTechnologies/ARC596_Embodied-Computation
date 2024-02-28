@@ -159,8 +159,8 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 100%;
-  color: #c0c0c0;
-  background-color: #f9f9f9;
+  color: #787878;
+  background-color: #e0e0e0;
   border-radius: 3px;
 }
 pre {
@@ -265,6 +265,7 @@ tbody tr:nth-child(odd) th {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  padding: 2rem 2rem 2rem 0;
 }
 
 
@@ -290,7 +291,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  max-width: 100%; 
+  width: 100%; 
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
@@ -309,7 +310,7 @@ tbody tr:nth-child(odd) th {
   padding-bottom: 1rem;
   margin-bottom: 3rem;
 }
-.masthead-title {
+.masthead-title {f
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
@@ -341,7 +342,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-  color: rgb(0, 151, 181);
+  color: #007acc;
 }
 .page-title,
 .post-title {

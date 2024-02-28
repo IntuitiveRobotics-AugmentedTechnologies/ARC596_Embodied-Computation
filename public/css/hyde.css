@@ -36,7 +36,7 @@ html {
 }
 @media (min-width: 48em) {
   html {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }
 
@@ -50,7 +50,7 @@ html {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  background-color: rgb(0, 0, 255);
+  background-color: #007acc;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -65,12 +65,12 @@ html {
 
 /* Sidebar links */
 .sidebar a {
-  color: rgb(137, 9, 9);
+  color: #007acc;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: rgb(0, 0, 255);
+  color: #007acc;
   margin-top: 0;
   /* font-family: "Abril Fatface", serif;*/
   font-size: 2.25rem;
@@ -123,7 +123,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 48rem;
+    max-width: 68rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }
@@ -278,7 +278,7 @@ img.drop-corners-left {
 
 /* Text with linked content */
 .theme-base-0e .content a{
-  color: rgb(0, 151, 181);
+  color: #007acc;
   text-decoration: none;
 }
 .theme-base-0e .related-posts li a:hover{

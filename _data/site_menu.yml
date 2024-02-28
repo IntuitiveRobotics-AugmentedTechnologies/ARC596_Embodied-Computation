@@ -1,0 +1,37 @@
+menu:
+  - title: Home
+    url: /
+  - title: Course Description
+    url: coursedescription/
+  - title: Tutorials
+    url: tutorials/
+    subfolderitems:
+      - page: Tutorial 1
+        url: tutorials_folder/Tutorial 1 - Installation/
+        description: Installation
+      - page: Tutorial 2
+        url: tutorials_folder/Tutorial 2 - First Unity Scene/
+        description: First Unity Scene
+      - page: Tutorial 3
+        url: tutorials_folder/Tutorial 3 - Bluehouse/
+        description: Bluehouse
+      - page: Tutorial 4
+        url: tutorials_folder/Tutorial 4 - Multiple Houses/
+        description: Multiple Houses
+      - page: Tutorial 5
+        url: tutorials_folder/Tutorial 5 - Animation/
+        description: Animation
+  - title: Getting Started
+    url: getting_started/
+  - title: Inspiration
+    url: inspiration/
+  - title: Learning Objectives
+    url: learningobjectives/
+  - title: References
+    url: references/
+  - title: Schedule
+    url: schedule/
+  - title: Team
+    url: team/
+  - title: Github
+    url: github/
